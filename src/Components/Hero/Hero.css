@@ -1,0 +1,48 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.932), rgba(3, 3, 3, 0.767)), url('../../assets/hero7.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.herotext{
+    max-width: 800px;
+    text-align: center;
+}
+
+.herotext h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.herotext p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-size: 19px;
+    padding: 6px;
+}
+
+/** media query **/
+@media (max-width: 850px) {
+    .herotext h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .herotext h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .herotext p{
+        font-size: 14px;
+        margin: auto 30px;
+    }
+}
